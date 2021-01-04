@@ -1,3 +1,4 @@
+require("dotenv").config();
 const express = require("express");
 const logger = require("morgan");
 
@@ -6,7 +7,7 @@ app.use(logger("dev"));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
-const router = require("./router");
+const router = require("./lib/router");
 router(app);
 
 module.exports = app;

@@ -10,7 +10,10 @@
     "express": "~4.16.1",
     "morgan": "~1.9.1",
     "mongodb": "^3.6.3",
-    "uuid": "^8.3.2"
+    "lodash": "^4.17.20",
+    "dotenv": "^8.2.0",
+    "uuid": "^8.3.2",
+    "md5": "^2.3.0"
   },
   "devDependencies": {
     "@types/node": "^14.14.14",
